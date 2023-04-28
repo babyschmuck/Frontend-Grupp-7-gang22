@@ -69,7 +69,7 @@ const LoginPartial = () => {
       </button>
       </div>
       <div className="signup-link">
-        Don't have an account? <a href="#">Sign up</a>
+        Don't have an account? <a>Sign up</a>
       </div>
     </form>
     </div>
