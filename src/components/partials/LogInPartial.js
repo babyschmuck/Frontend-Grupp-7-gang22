@@ -59,7 +59,7 @@ const LoginPartial = () => {
         <label className="rememberMe" htmlFor="remember-me" style={{ fontWeight: 500 }}>
           Remember me
         </label>
-        <a href="#" style={{ marginLeft: "auto", fontWeight: 500 }}>
+        <a style={{ marginLeft: "auto", fontWeight: 500 }}>
           Forgot password?
         </a>
       </div>
