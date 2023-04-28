@@ -4,6 +4,7 @@ const RegisterPartial = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -54,12 +55,25 @@ const RegisterPartial = () => {
         />
       </div>
 
+      <div className="form-group">
+        <label htmlFor="confirmPassword">Confirm Password</label>
+        <input
+          type="password"
+          className="form-control"
+          id="confirmPassword"
+          placeholder="Confirm Password"
+          value={confirmPassword}
+          onChange={(e) => setConfirmPassword(e.target.value)}
+          required
+        />
+      </div>
+
       <button type="submit" className="btn btn-theme">
         SIGN UP
       </button>
 
       <div className="signup-link">
-        Already have an account? <a href="#">Sign in</a>
+        Already have an account? <a>Sign in</a>
       </div>
     </form>
   );
