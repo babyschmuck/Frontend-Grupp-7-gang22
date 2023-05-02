@@ -59,9 +59,9 @@ const LoginPartial = () => {
         <label className="rememberMe" htmlFor="remember-me" style={{ fontWeight: 500 }}>
           Remember me
         </label>
-        <a style={{ marginLeft: "auto", fontWeight: 500 }}>
+        <p style={{ marginLeft: "auto", fontWeight: 500 }}>
           Forgot password?
-        </a>
+        </p>
       </div>
 <div className="center">
       <button type="submit" className="btn btn-theme">
@@ -69,7 +69,7 @@ const LoginPartial = () => {
       </button>
       </div>
       <div className="signup-link">
-        Don't have an account? <a>Sign up</a>
+        Don't have an account? <p>Sign up</p>
       </div>
     </form>
     </div>
