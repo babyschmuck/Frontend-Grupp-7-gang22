@@ -1,13 +1,12 @@
+import LoginPartial from "../partials/LogInPartial";
+
+
 const LogIn = () => {
 
 return(<>
 
-
-<h1>Hej Jeppe</h1>
-
-
+<LoginPartial/>
 </>)
-
 
 
 
