@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.minimap.enabled": false,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/src",
+            "savePathReplacementPairs": null
+        }
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "editor.inlineSuggest.enabled": true,
+    "liveSassCompile.settings.showAnnouncements": null
+}

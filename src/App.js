@@ -1,11 +1,14 @@
-import LogIn from './components/views/LogIn';
+
 import './App.css';
-import './components/partials/LogInPartial';
+
+import LoginPartial from './components/partials/LogInPartial';
+
+
 
 function App() {
   return (
   <>
-  <LogIn />
+ <LoginPartial/>
   </>
   );
 }
