@@ -1,15 +1,18 @@
 import React from 'react'
 
 function FooterPartial() {
-  return (
+
+    const date = new Date().getFullYear()
+
+    return (
     <>
-    <footer>
-        <div className="container"> 
-        
-        </div>
-    </footer>
+        <footer>
+            <div className="container"> 
+            <p>&copy; {currentYear} Manero</p>
+            </div>
+        </footer>
     </>
-  )
+    )
 }
 
 export default FooterPartial
