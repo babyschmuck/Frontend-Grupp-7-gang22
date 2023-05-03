@@ -1,20 +1,25 @@
-import React, { useState } from 'react';
+
 import { Link } from 'react-router-dom';
 import HeaderPartial from '../partials/HeaderPartial';
+/*import React, { useState } from 'react';
 import LoginPartial from '../partials/LogInPartial';
-import RegisterPartial from '../partials/RegisterPartial';
+import RegisterPartial from '../partials/RegisterPartial'; */
 
 const Account = () => {
-  const [showLogin, setShowLogin] = useState(false);
-  const [showRegister, setShowRegister] = useState(false);
+ /*const [showLogin, setShowLogin] = useState(false);
+ const [showRegister, setShowRegister] = useState(false);
 
   const handleLoginClick = () => {
     setShowLogin(true);
+    
   }
 
   const handleRegisterClick = () => {
     setShowRegister(true);
-  }
+  } 
+
+  {showLogin && <LoginPartial />}
+      {showRegister && <RegisterPartial />}*/
 
   return (
     <>
@@ -23,8 +28,7 @@ const Account = () => {
         <Link to="/login" className="login-link">Log In</Link>
         <Link to="/register" className="register-link">Register</Link>
       </div>
-      {showLogin && <LoginPartial />}
-      {showRegister && <RegisterPartial />}
+    
     </>
   );
 };
