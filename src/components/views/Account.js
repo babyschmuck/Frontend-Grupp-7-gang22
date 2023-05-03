@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+
 import { Link } from 'react-router-dom';
 import HeaderPartial from '../partials/HeaderPartial';
+/*import React, { useState } from 'react';
 import LoginPartial from '../partials/LogInPartial';
-import RegisterPartial from '../partials/RegisterPartial';
+import RegisterPartial from '../partials/RegisterPartial'; */
 
 const Account = () => {
  /*const [showLogin, setShowLogin] = useState(false);
