@@ -7,9 +7,7 @@ function FooterPartial() {
     return (
     <>
         <footer>
-            <div className="container"> 
-            <p>&copy; {currentYear} Manero</p>
-            </div>
+            <p>&copy; {date} Manero</p>
         </footer>
     </>
     )
