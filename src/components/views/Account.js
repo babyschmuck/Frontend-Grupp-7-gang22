@@ -8,13 +8,14 @@ const Account = () => {
   const [showLogin, setShowLogin] = useState(false);
   const [showRegister, setShowRegister] = useState(false);
 
-  const handleLoginClick = () => {
+  /*const handleLoginClick = () => {
     setShowLogin(true);
+    
   }
 
   const handleRegisterClick = () => {
     setShowRegister(true);
-  }
+  } */
 
   return (
     <>
