@@ -30,7 +30,7 @@ const RegisterPartial = () => {
         <label htmlFor="password">Password</label>
         <input type="password" className="form-control" id="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required/>
       </div>
-      
+
       <div className="form-group">
         <label htmlFor="confirmPassword">Confirm Password</label>
         <input type="password" className="form-control" id="confirmPassword" placeholder="Confirm Password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} required/>
@@ -41,7 +41,7 @@ const RegisterPartial = () => {
       </button>
 
       <div className="signup-link">
-        Already have an account? <a>Sign in</a>
+        Already have an account? <p>Sign in</p>
       </div>
     </form>
   );
