@@ -5,8 +5,8 @@ import LoginPartial from '../partials/LogInPartial';
 import RegisterPartial from '../partials/RegisterPartial';
 
 const Account = () => {
-  const [showLogin, setShowLogin] = useState(false);
-  const [showRegister, setShowRegister] = useState(false);
+ //const [showLogin, setShowLogin] = useState(false);
+ // const [showRegister, setShowRegister] = useState(false);
 
   /*const handleLoginClick = () => {
     setShowLogin(true);
