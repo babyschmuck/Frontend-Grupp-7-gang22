@@ -1,3 +1,7 @@
+@import './core/variables';
+@import './core/mixins';
+@import './core/imports';
 @import './components/partials/logInPartial';
 @import './components/partials/registerPartial';
-@import './core/imports';
+@import './components/partials/headerPartial';
+@import './components/partials/accountPartial';
