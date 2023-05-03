@@ -4,12 +4,12 @@ import FooterPartial from "../partials/FooterPartial";
 
 const Home = () => {
 
-return(<>
-
-
-<HeaderPartial/>
-<FooterPartial/>
-</>)
+return(
+<>
+    <HeaderPartial/>
+    <FooterPartial/>
+</>
+)
 
 
 
