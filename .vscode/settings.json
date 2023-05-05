@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Default Dark Modern",
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },

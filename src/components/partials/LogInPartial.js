@@ -1,13 +1,19 @@
 import React, { useState } from "react";
+import { handleLogin } from "../../scripts/auth/authAPI";
 
 const LoginPartial = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [rememberMe, setRememberMe] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle login logic
+    try {
+      await handleLogin(e);
+    } catch (error) {
+      setError(error.message);
+    }
   };
 
   return (
@@ -29,23 +35,24 @@ const LoginPartial = () => {
 
         <div className="remember-forgot">
           <div className="remember-me">
-            <input type="checkbox" id="remember-me" checked={rememberMe} onChange={(e) => setRememberMe(e.target.checked)}/>
-            <label htmlFor="remember-me">Remember me</label>
+            <input type="checkbox" id="rememberMe" checked={rememberMe} onChange={(e) => setRememberMe(e.target.checked)}/>
+            <label htmlFor="rememberMe">Remember me</label>
           </div>
 
           <p className="forgot-password">Forgot password?</p>
         </div>
-
+        {error && <div className="error-message"><p id="error-message">{error}</p></div>}
         <div className="center">
           <button type="submit" className="btn btn-theme">
             <i className="fas fa-sign-in-alt"></i> SIGN IN
           </button>
+          
         </div>
-
+        
         <div className="signup-link">
           Don't have an account? <p>Sign up</p>
         </div>
-        
+       
       </form>
     </div>
   );
