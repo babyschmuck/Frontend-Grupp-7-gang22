@@ -33,11 +33,11 @@ const CarouselPartial = () => {
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="sr-only">Next</span>
       </button>
-      <ol className="carousel-indicators">
-        <li className={activeIndex === 0 ? "active" : ""} onClick={() => setActiveIndex(0)}></li>
-        <li className={activeIndex === 1 ? "active" : ""} onClick={() => setActiveIndex(1)}></li>
-        <li className={activeIndex === 2 ? "active" : ""} onClick={() => setActiveIndex(2)}></li>
-      </ol>
+
+
+
+
+
     </div>
   );
 };
