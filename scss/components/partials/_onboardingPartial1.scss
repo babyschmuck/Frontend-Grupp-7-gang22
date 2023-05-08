@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: lightblue;
+  }
+  
+  .upper-half {
+    height: 10vh;
+  }
+  
+  .lower-half {
+    height: 50vh;
+  }
+  
+  .circle {
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    padding: 200px;
+    position: relative;
+  }
+  
+  .startbutton {
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 40%;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .buttontext {
+    color: white;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Adjust the circle padding and button size for smaller screens */
+    .circle {
+      padding: 100px;
+    }
+    
+    .startbutton {
+      width: 150px;
+      height: 40px;
+      border-radius: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Adjust the circle padding and button size for even smaller screens */
+    .circle {
+      padding: 59px;
+      
+    }
+    
+    .startbutton {
+      width: 150px;
+      height: 35px;
+      bottom: 25%;
+      border-radius: 50px;
+    }
+  }
+  
